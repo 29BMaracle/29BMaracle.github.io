@@ -1,17 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Braeden</title>
 </head>
+
 <body>
-   <h1 style="text-align: center; font-family:sans-serif">My Name is Braeden</h1>
-    <div class="container">
-     <p style="text-align: center; font-family: verdana;">I'm currently a student at the york county technical high school.</p>
-  
-</div>
-    
-    
-</body>
+
+    <body style="background-color: rgb(0, 162, 255);">
+
+        <label for="file">Pretty cool progress bar (85%)</label>
+        <progress id="file" value="85" max="100"> 85% </progress>
+
+        <h1 style="text-align: center; font-family:sans-serif">My Name is Braeden</h1>
+        <p style="background-color: rgb(117, 137, 204); padding: 20px; font-family: verdana;">I'm currently a student at
+            the
+            york county technical high school</p>
+        <marquee style="background-color: rgb(186, 219, 214); padding: 20px; font-family: verdana;" behavior="scroll"
+            direction="left">hi im scrolling</marquee>
+        <a href="https://www.google.com" target="_blank">yeah im not that creative with this</a>
+        <img src="tung tung tung sahur.jpg" alt="tung tung tung sahur"
+            style="display: block; margin: 150px auto; max-width: 100%; height: auto;" width="300" height="100">
+
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Months</th>
+                        <th>Days</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>January</td>
+                        <td>31</td>
+                    </tr>
+                    <tr>
+                        <td>February</td>
+                        <td>28</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Sum</td>
+                        <td>59</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <label for="my-basic-dropdown">how are you today?</label>
+        <select id="my-basic-dropdown">
+            <option value="option1">feeling good</option>
+            <option value="option2">it could be better</option>
+            <option value="option3">terrible.</option>
+        </select>
+
+        <button onclick="alert('you clicked me! thank you!');"> click me for an alert</button>
+        <button onclick="document.body.style.backgroundColor = 'rgb(89, 65, 214)';">click me to change background
+            color</button>
+
+    </body>
+
 </html>
