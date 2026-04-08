@@ -1,68 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Braeden</title>
+    <title>Sample Webpage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        section {
+            width: 80%;
+            margin: auto;
+            border: 6px solid black;
+            padding: 10px;
+        }
+    </style>
 </head>
 
-<body>
-
-    <body style="background-color: rgb(255, 255, 255);">
-
-        <label for="file">Pretty cool progress bar (85%)</label>
-        <progress id="file" value="85" max="100"> 85% </progress>
-
-        <h1 style="text-align: center; font-family:sans-serif">My Name is Braeden</h1>
-        <p style="background-color: rgb(117, 137, 204); padding: 20px; font-family: verdana;">this is a blue text (kinda)</p>
-        <marquee style="background-color: rgb(186, 219, 214); padding: 20px; font-family: verdana;" behavior="scroll"
-            direction="left">hi im scrolling</marquee>
-        <a href="https://www.google.com" target="_blank">yeah im not that creative with this</a>
-        <img src="tung tung tung sahur.jpg" alt="tung tung tung sahur"
-            style="display: block; margin: 150px auto; max-width: 100%; height: auto;" width="300" height="100">
-        <a href="/GetToSchool7/index.html">Go to School game</a>
-        <div class="container">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Months</th>
-                        <th>Days</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>January</td>
-                        <td>31</td>
-                    </tr>
-                    <tr>
-                        <td>February</td>
-                        <td>28</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td>Sum</td>
-                        <td>59</td>
-                    </tr>
-                </tfoot>
-            </table>
+<body style="background-color: rgb(33, 70, 73);">
+    <header>
+        <h1 style="color: rgb(255, 255, 255); text-align: center;">Sample Webpage</h1>
+        <div style="text-align: center;">
+            <nav>
+                <details>
+                    <summary style="color: rgb(255, 255, 255);">Navigation Bar</summary>
+                    <ul>
+                        <li><a href="index.html" style="color: rgb(255, 255, 255); text-align: center;">Home
+                                Page</a></li>
+                        <li><a href="about.html" style="color: rgb(255, 255, 255); text-align: center;">About Page</a>
+                        </li>
+                        <li><a href="GetToSchool7/index.html"
+                                style="color: rgb(255, 255, 255); text-align: center;">Game Page</a></li>
+                        <li><a href="https://google.com"
+                                style="color: rgb(255, 255, 255); text-align: center;">Google</a></li>
+                    </ul>
+                </details>
+            </nav>
         </div>
-        <label for="my-basic-dropdown">how are you today?</label>
-        <select id="my-basic-dropdown">
-            <option value="option1">feeling good</option>
-            <option value="option2">it could be better</option>
-            <option value="option3">terrible.</option>
-        </select>
+    </header>
 
-        <button onclick="alert('you clicked me! thank you!');"> click me for an alert</button>
-        <button onclick="document.body.style.backgroundColor = 'rgb(67, 67, 67)';">click me to change background <wbr> to a darker color</wbr></button>
+    <section>
 
-    </body>
+
+        <article>
+            <h2 style="color: rgb(255, 255, 255); text-align: center;">Welcome to my Webpage</h2>
+            <p style="color: rgb(255, 255, 255); text-align: center;">This webpage has my interests and hobbies i do!
+            </p>
+            <p style="color: rgb(255, 255, 255); text-align: center;">This page was created during my 9th grade computer
+                programming class and i hope for it to look good by the end!</p>
+        </article>
+
+        <article>
+            <h2 style="color: rgb(255, 255, 255); text-align: center;">Other Stuff</h2>
+            <p style="color: rgb(255, 255, 255);text-align: center;">This is pretty cool because it is different.</p>
+        </article>
+    </section>
+    <footer style="color: rgb(255, 255, 255); text-align: center;">Made by Braeden Maracle 2026</footer>
+
+</body>
 
 </html>
