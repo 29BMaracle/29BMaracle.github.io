@@ -1,69 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Sample Webpage</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <style>
         body {
-            font-family: 'Space Grotesk', sans-serif;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        section {
-            width: 80%;
-            margin: auto;
-            border: 6px solid black;
             padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(234, 227, 203);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-evenly;
+            list-style-type: none;
+            padding: 10;
+        }
+
+        nav ul li {
+            margin: 10px 20px 10px 20px;
+            background-color: aquamarine;
+            padding: 10px;
+            border: 5px ridge darkkhaki;
+            border-radius: 5px;
+            transition: 0.25s;
+            border-style: groove;
+        }
+
+        article {
+            background-color: aliceblue;
+            width: 75%;
+            border-width: 5px;
+            border-style: ridge;
+            border-color: darkkhaki;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        nav ul li:hover {
+            margin: 0px;
+            padding: 20px 30px 20px 30px;
+            transition: 0.25s;
+            border-style: inset;
         }
     </style>
 </head>
 
-<body style="background-color: rgb(33, 70, 73);">
-    <header>
-        <h1 style="color: rgb(255, 255, 255); text-align: center;">Sample Webpage</h1>
-        <div style="text-align: center;">
-            <nav>
-                <details>
-                    <summary style="color: rgb(255, 255, 255);">Navigation Bar</summary>
-                    <ul>
-                        <li><a href="index.html" style="color: rgb(255, 255, 255); text-align: center;">Home
-                                Page</a></li>
-                        <li><a href="about.html" style="color: rgb(255, 255, 255); text-align: center;">About Page</a>
-                        </li>
-                        <li><a href="GetToSchool7/index.html"
-                                style="color: rgb(255, 255, 255); text-align: center;">Game Page</a></li>
-                        <li><a href="https://google.com"
-                                style="color: rgb(255, 255, 255); text-align: center;">Google</a></li>
-                    </ul>
-                </details>
-            </nav>
-        </div>
-    </header>
+<body>
+    <h1>Bad titles often lead to confusion.</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="tungtung.html">tung tung</a></li>
 
-    <section>
+        </ul>
+    </nav>
 
+    <article>
+        <h2>"i think my dog is a shark and is trying to make another sharknado movie starting with me"</h2>
+        <p>This title is bad because it's too long. It conveys the author's message but shouldn't be in the title. <br>
+            It could be changed to "I suspect my dog is a shark." then can be explained in the text.</p>
+    </article>
 
-        <article>
-            <h2 style="color: rgb(255, 255, 255); text-align: center;">Welcome to my Webpage</h2>
-            <p style="color: rgb(255, 255, 255); text-align: center;">This webpage has my interests and hobbies i do!
-            </p>
-            <p style="color: rgb(255, 255, 255); text-align: center;">This page was created during my 9th grade computer
-                programming class and i hope for it to look good by the end!</p>
-        </article>
+    <article>
+        <h2>"this is my answer to that question"</h2>
+        <p>What question?</p>
+    </article>
 
-        <article>
-            <h2 style="color: rgb(255, 255, 255); text-align: center;">Other Stuff</h2>
-            <p style="color: rgb(255, 255, 255);text-align: center;">This is pretty cool because it is different.</p>
-        </article>
-    </section>
-    <footer style="color: rgb(255, 255, 255); text-align: center;">Made by Braeden Maracle 2026</footer>
-
+    <footer>
+        &copy; 2026
+    </footer>
 </body>
 
 </html>
